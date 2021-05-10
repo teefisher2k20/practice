@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Alice {
     public static void main(String[] args) {
+        System.out.println("Search for term within this string.");
         Alice myFirstAlice = new Alice();
         String searchTerm = myFirstAlice.getUsersSearchTerm();
         Boolean myReturnedResult = myFirstAlice.searchAliceQuote(searchTerm);

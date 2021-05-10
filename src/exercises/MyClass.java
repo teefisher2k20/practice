@@ -16,8 +16,6 @@ public class MyClass {
 
     //method
     public void whatIsMyVariable() {
-        System.out.println(this.myVariable);
-
-
+        System.out.println(this.myVariable.equals("Pizza"));
     }
 }
