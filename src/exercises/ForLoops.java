@@ -22,5 +22,28 @@ public class ForLoops {
 //                System.out.println("Hello world!");
 //            } while (3 < 2);
         }
+//write a for loop that prints the even numbers 1-10 to the console.
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 == 0)
+                System.out.println(i);
+        }
+//write a while loop that prints "Drinking water" to the console with a conditional
+//        int i = 0;
+//
+//        while (i < 3) {
+//            if (i % 2 == 0) {
+//                System.out.println("Drinking water");
+//            }
+//            i++;
+//        do while loop that prints 2 - 50 even number to the console
+        int i = 0;
+
+        do {
+             if ( i % 2 == 0)
+            System.out.println(i);
+            i++;
+        } while(i< 50);
+
     }
 }
+
