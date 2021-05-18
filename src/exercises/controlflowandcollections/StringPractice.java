@@ -11,6 +11,7 @@ public class StringPractice {
         arrayOfStrings[1] = "200";
         arrayOfStrings[2] = "300";
 
+
     }
 
     public void splitLettersIntoArrays(String arrayOfStrings) {
@@ -23,7 +24,6 @@ public class StringPractice {
                 System.out.println("None");
             }
         }
-        splitLettersIntoArrays(arrayOfStrings);
     }
 
     int[] arr1 = {1, 2, 3, 4};
@@ -35,10 +35,9 @@ public class StringPractice {
         for (int i = 0; i < arr1.length; i++)
             for (int j = 0; i < arr2.length; i++)
                 if (arr1.equals(arr2)) {
-                    return "true";
-                } else {
-                    return "false";
+                }return "true";
                 }
-        return "sss";
-    }
 }
+
+
+
