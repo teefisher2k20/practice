@@ -5,8 +5,9 @@ public class VowelsInString {
         String characterName = "Terrance Fisher";
         System.out.println(countVowels(characterName));
     }
-
-
+    /*Create a function that takes a string and returns
+    the number (count) of vowels contained within it.
+*/
     // Returns count of vowels in str
     public static int countVowels(String vowels) {
         int vowelCount = 0;
