@@ -9,7 +9,8 @@ public class HowToCallAMethod {
         myMethod("Terrance", "15556 Fox Plains");
 //to call method with no parameters use myMethod();
     }
-//if it requires a parameter, insert int, string, object followed by reference variable
+
+    //if it requires a parameter, insert int, string, object followed by reference variable
     //
     public static void myMethod(String paramName, String paramAddress) {
         if (paramName.equals("Terrance")) {
