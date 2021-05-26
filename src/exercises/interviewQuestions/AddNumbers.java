@@ -4,13 +4,13 @@ import java.util.HashMap;
 
 public class AddNumbers {
     public static void main(String[] args) {
-////        int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8};
-////
-////        for (int i : numbers) {
-////            System.out.println(i)
         System.out.println(addNumbers(8));
     }
 
+    //*Create a method that takes an integer as an argument.
+    //Add up all the numbers from 1 to the number you passed
+    //to the function. For example, if the input is 4 then your
+    //function should return 10 because 1 + 2 + 3 + 4 = 10.
 
     public static int addNumbers(int sumOfNumbs) {
         int total = 0;

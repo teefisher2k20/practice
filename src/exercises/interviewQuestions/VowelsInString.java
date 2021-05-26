@@ -2,7 +2,9 @@ package exercises.interviewQuestions;
 
 public class VowelsInString {
     public static void main(String[] args) {
-        String characterName = "Terrance Fisher";
+        String characterName = "Celebration";
+        String characterName2 = "Palm";
+        String characterName3 = "Prediction";
         System.out.println(countVowels(characterName));
     }
     /*Create a function that takes a string and returns
