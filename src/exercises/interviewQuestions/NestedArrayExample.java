@@ -8,13 +8,31 @@ public class NestedArrayExample {
     //arr1's max is less than arr2's max.
     public static void main(String[] args) {
 
+
     }
     public static boolean canNest(int[] arr1, int[] arr2) {
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-        if(arr1[0] > arr2[0] && arr1[arr1.length-1]<arr2[arr2.length-1]){
-            return true;
+
+        int min_value1 = arr1[0];
+        int min_value2 = arr2[0];
+
+        for(int i = 0; i < arr1.length; i++){
+            if(arr1[i] < min_value1){
+                min_value1 = arr1[i];
+            }
         }
-        return false;
+
+        for(int i = 0; i < arr2.length; i++){
+            if(arr1[i] < min_value2){
+                min_value2 = arr2[i];
+            }
+        }
+
+        if(min_value1 > min_value2){
+            return true;
+        }else{
+            return false;
+        }
     }
+
 }
+
